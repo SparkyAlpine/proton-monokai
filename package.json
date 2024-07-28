@@ -1,0 +1,24 @@
+{
+  "name": "proton-monokai",
+  "displayName": "Proton Monokai",
+  "description": "Proton's Monokai theme for VSCode",
+  "version": "1.0.0",
+  "publisher": "SparkyAlpine",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": "https://github.com/SparkyAlpine/proton-monokai",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Proton Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Proton Monokai-color-theme.json"
+      }
+    ]
+  }
+}
